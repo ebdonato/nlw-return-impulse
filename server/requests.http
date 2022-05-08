@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3333
+
+# @name CriarFeedbacks
+POST {{baseUrl}}/feedbacks
+content-type: application/json
+
+{
+    "type": "BUG",
+    "comment": "Está tudo bugado!"
+}
